@@ -1,0 +1,19 @@
+$primary: #8094F1;
+$secondary: #43ACD2;
+$accent: #82B1FF;
+$error: #F87C92;
+$info: #2196F3;
+$success: #1DABAD;
+$warning: #E8BE87;
+
+$theme-colors: (
+  "primary": $primary,
+  "secondary": $secondary,
+  "warning": $warning
+);
+
+$border-radius-root: .25rem;
+$btn-outline-border-width: 2px;
+
+// $btn-border-radius: .5rem;
+// $text-field-border-radius: .5rem;

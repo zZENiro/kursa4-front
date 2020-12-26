@@ -1,0 +1,8 @@
+/* fade */
+.fade-enter-active, .fade-leave-active {
+  transition: all ease-in-out .3s;
+}
+.fade-enter, .fade-leave-to {
+  opacity: 0;
+}
+/* fade end */

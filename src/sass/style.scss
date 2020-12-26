@@ -1,0 +1,30 @@
+@import './transitions.scss';
+@import './variables.scss';
+@import '~vuetify/src/styles/main.sass';
+
+.v-overlay__scrim, .v-overlay--active {
+  backdrop-filter: blur(5px);
+}
+
+.bg-white {
+  background-color: white;
+}
+
+.main-bg {
+  background-color: #F6FCFF;
+}
+
+@each $col, $val in $theme-colors {
+  .shadow-#{$col} {
+    box-shadow: 0 .5rem 1rem rgba($color: $val, $alpha: .2)!important;
+  }
+  .border-#{$col} {
+    border-width: 2px!important;
+    border-style: solid!important;
+    border-color: $val!important;
+  }
+}
+
+.condensed {
+  font-family: 'Roboto Condensed', sans-serif!important;
+}
